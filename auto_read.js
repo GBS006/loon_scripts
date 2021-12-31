@@ -35,5 +35,5 @@ QX:
 hostname=mp.weixin.qq.com
 *************************/
 
-let body = $response.body.replace(/<\/script>/g, "setTimeout(()=>window.history.back(),10000);</script>");
+let body = $response.body.replace(/<\/script>/g, "setTimeout(()=>window.history.back(),7000);</script>");
 $done({body});
